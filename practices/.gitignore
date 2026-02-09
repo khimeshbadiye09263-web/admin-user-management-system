@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# Environment variables (NEVER commit this!)
+.env
+.env.local
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Admin creation script (contains default credentials)
+createAdmin.js
+
+# Database
+*.db
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build files
+dist/
+build/
